@@ -3,10 +3,10 @@ import "../style.css"
 
 function Hero() {
     return (
-        <section classname="hero">
-            <img classname="hero--photo" src={photo_grid} />
-            <h1 classname="hero--header">Online Experiences</h1>
-            <p classname="hero--text">Join unique interactive activities from home</p>
+        <section className="hero">
+            <img className="hero--photo" src={photo_grid} alt="img" />
+            <h1 className="hero--header">Online Experiences</h1>
+            <p className="hero--text">Join unique interactive activities from home</p>
         </section>
     )
 }

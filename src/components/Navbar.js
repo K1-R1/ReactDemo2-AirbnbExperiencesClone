@@ -4,7 +4,7 @@ import "../style.css"
 function Navbar() {
     return (
         <nav>
-            <img src={logo} />
+            <img src={logo} alt="img" />
         </nav>
     )
 }
