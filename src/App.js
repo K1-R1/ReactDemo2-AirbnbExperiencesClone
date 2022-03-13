@@ -6,8 +6,15 @@ function App() {
     return (
         <div>
             <Navbar />
-            <Hero />
-            <Card />
+            {/* <Hero /> */}
+            <Card
+                img="katie-zaferes.png"
+                rating="5.0"
+                reviewCount={6}
+                country="USA"
+                title="Life lessons with Katie Z"
+                price={136}
+            />
         </div>
     )
 }
