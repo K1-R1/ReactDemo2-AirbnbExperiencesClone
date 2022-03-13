@@ -1,10 +1,9 @@
-import logo from "../img/download.png";
 import "../style.css"
 
 function Navbar() {
     return (
         <nav>
-            <img src={logo} alt="img" />
+            <img src="img/download.png" alt="img" />
         </nav>
     )
 }
